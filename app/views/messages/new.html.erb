@@ -1,0 +1,7 @@
+<h1>Tu dodasz nową</h1><br>
+<%= form_for(@message) do |f| %>
+<%= f.label :message %><br>
+<%= f.text_field :title %>
+<%= f.text_area :content %>
+<%= f.submit "Zapisz" %>
+<% end %>
